@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Menu from "./Menu/Menu";
@@ -9,6 +9,7 @@ import HomePage from "./HomePage/HomePage";
 import Footer from "./Footer/Footer";
 import AboutPage from "./AboutPage/AboutPage";
 import Login from "./Login/Login";
+import Chart from "./Chart/Chart";
 
 function App() {
   return (
